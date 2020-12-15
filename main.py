@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 WEB_PAGE = "http://orteil.dashnet.org/experiments/cookie/"
-DRIVER_PATH = "/home/nyxfox/Downloads/cdriver/chromedriver"
+DRIVER_PATH = "_YOUR_DRIVER_PATH_"
 
 driver = webdriver.Chrome(executable_path=DRIVER_PATH)
 driver.get(WEB_PAGE)
